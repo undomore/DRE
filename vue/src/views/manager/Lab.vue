@@ -53,14 +53,14 @@
         <el-form-item prop="descr" label="描述">
           <el-input type="textarea" :rows="3" v-model="form.descr" autocomplete="off"></el-input>
         </el-form-item>
-        <el-form-item prop="start" label="开始时间">
+        <el-form-item prop="start" label="开机时间">
           <el-time-picker style="width: 100%"
               v-model="form.start"
               value-format="HH:mm:ss"
               placeholder="请选择时间">
           </el-time-picker>
         </el-form-item>
-        <el-form-item prop="start" label="结束时间">
+        <el-form-item prop="start" label="关机时间">
           <el-time-picker style="width: 100%"
               v-model="form.end"
               value-format="HH:mm:ss"
@@ -101,10 +101,10 @@ export default {
           {required: true, message: '请输入分类名称', trigger: 'blur'},
         ],
         start: [
-          {required: true, message: '请选择开始时间', trigger: 'blur'},
+          {required: false, message: '请选择开机时间', trigger: 'blur'},
         ],
         end: [
-          {required: true, message: '请选择闭门时间', trigger: 'blur'},
+          {required: false, message: '请选择关机时间', trigger: 'blur'},
         ],
         typeId: [
           {required: true, message: '请选择分类', trigger: 'blur'},

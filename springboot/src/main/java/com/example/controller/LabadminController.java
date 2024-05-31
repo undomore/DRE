@@ -10,7 +10,7 @@ import javax.annotation.Resource;
 import java.util.List;
 
 /**
- * 实验室管理员前端操作接口
+ * 管理员前端操作接口
  **/
 //@CrossOrigin
 @RestController

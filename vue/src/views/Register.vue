@@ -1,7 +1,7 @@
 <template>
   <div class="container">
-    <div style="width: 400px; padding: 30px; background-color: white; border-radius: 5px;">
-      <div style="text-align: center; font-size: 20px; margin-bottom: 20px; color: #333">欢迎注册</div>
+    <div style="width: 400px; padding: 30px; background-color: #2b2b2b; border-radius: 5px;">
+      <div style="text-align: center; font-size: 20px; margin-bottom: 20px; color: #e8f0fe">欢迎注册</div>
       <el-form :model="form" :rules="rules" ref="formRef">
         <el-form-item prop="username">
           <el-input prefix-icon="el-icon-user" placeholder="请输入账号" v-model="form.username"></el-input>
@@ -13,7 +13,7 @@
           <el-input prefix-icon="el-icon-lock" placeholder="请确认密码" show-password  v-model="form.confirmPass"></el-input>
         </el-form-item>
         <el-form-item>
-          <el-button style="width: 100%; background-color: #333; border-color: #333; color: white" @click="register">注 册</el-button>
+          <el-button style="width: 100%; background-color: #333; border-color: #333; color: white" @click="register">register</el-button>
         </el-form-item>
         <div style="display: flex; align-items: center">
           <div style="flex: 1"></div>

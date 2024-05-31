@@ -21,9 +21,9 @@
           </el-timeline>
         </div>
 
-        <div style="margin-top: 30px; display: flex">
-          <div id="pie" style="height: 400px; flex: 1"></div>
-          <div id="bar" style="height: 400px; flex: 1"></div>
+        <div style="margin-top: 10px; display: flex">
+          <div id="pie" style="height: 300px; flex: 1"></div>
+          <div id="bar" style="height: 300px; flex: 1"></div>
         </div>
       </div>
     </div>

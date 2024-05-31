@@ -66,7 +66,7 @@
             </template>
             <el-menu-item index="/admin">系统管理员</el-menu-item>
             <el-menu-item index="/labadmin">机房管理员</el-menu-item>
-            <el-menu-item index="/student">普通用户</el-menu-item>
+            <el-menu-item index="/basicuser">普通用户</el-menu-item>
           </el-submenu>
         </el-menu>
       </div>

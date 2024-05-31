@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * 实验室信息表前端操作接口
+ * 前端操作接口
  **/
 //@CrossOrigin
 @RestController

@@ -12,7 +12,7 @@
         <el-select  v-model="form.role" placeholder="请选择角色" style="width: 100%">
           <el-option label="系统管理员" value="ADMIN"></el-option>
           <el-option label="机房管理员" value="LABADMIN"></el-option>
-          <el-option label="用户" value="STUDENT"></el-option>
+          <el-option label="普通用户" value="STUDENT"></el-option>
         </el-select>
         <el-form-item prop="code" style="margin-top: 18px;">
           <div style="display: flex">

@@ -5,9 +5,7 @@ import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
-/**
- * 操作student相关数据接口
-*/
+
 public interface StudentMapper {
 
     /**
